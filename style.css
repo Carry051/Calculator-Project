@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainPanel {
+  min-width: 423px;
+  min-height: 720px;
+  border-radius: 40px;
+  background: linear-gradient(166deg, #373737 0%, #252628 22.9%, #000309 100%);
+}
+
+.buttonsControl {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.toggleButton {
+  width: 122px;
+  height: 44px;
+  flex-shrink: 0;
+  border: 2px solid none;
+  border-radius: 40px;
+  background: #1B6A9C;
+  margin-top: 40px;
+  position: relative;
+}
+
+.lightMode {
+  font-size: 28px;
+  color:#FBFBFB66;
+  flex-shrink: 0;
+  padding: 7px 0 7.26px 17px;
+  cursor: pointer;
+}
+
+.darkMode {
+  font-size: 28px;
+  color:#FBFBFB66;
+  flex-shrink: 0;
+  padding: 7px 0 7.26px 27px;
+  cursor: pointer;
+}
+
+.changerMode .active{
+  width: 68px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #003661;
+  color: #FBFBFBCC;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+
+}
+
+.history {
+  font-size: 28px;
+  cursor: pointer;
+  position: absolute;
+  top: 43px;
+  right: 34px;
+  color: #FBFBFB;
+}
+
+.inputPanel {
+  min-width: 355px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+}
+
+.visionDisplay {
+  color: rgba(251, 251, 251, 0.50);
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0px 34px 10px 0;
+}
+
+.equalsDisplay{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.equal {
+  color: #FBFBFB;
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 34px;
+}
+
+input {
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: #FBFBFB;
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-right: 34px;
+  outline: none;
+}
