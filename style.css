@@ -88,7 +88,7 @@ body {
 
 .inputPanel {
   min-width: 355px;
-  min-height: 120px;
+  min-height: 170px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,6 +144,7 @@ input {
   background: linear-gradient(rgba(57, 165, 227, 0.4), rgba(11, 45, 66, 0.4));
   padding: 30px 0 0 34px;
   display: flex;
+  position: relative;
 }
 
 .primaryButtons {
@@ -243,3 +244,35 @@ input {
 }
 
 
+.numericButtons {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(4, 70px);
+  gap: 10px;
+  position: absolute;
+  top: 110px;
+}
+
+.nums {
+  border: none;
+  background: none;
+  color: #FBFBFB;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(5, 5, 5, 0.30);
+  cursor: pointer;
+}
+
+.nums:hover {
+  width: 60px;
+  height: 60px;
+
+  background: rgba(111, 109, 109, 0.3);
+}
