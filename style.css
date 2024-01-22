@@ -122,7 +122,7 @@ body {
   padding-left: 34px;
 }
 
-input {
+.out {
   font-size: 26px;
   width: 165px;
   background: none;
@@ -246,7 +246,7 @@ input {
 
 .numericButtons {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(3, 96px);
   grid-template-rows: repeat(4, 70px);
   gap: 10px;
   position: absolute;
@@ -273,6 +273,5 @@ input {
 .nums:hover {
   width: 60px;
   height: 60px;
-
   background: rgba(111, 109, 109, 0.3);
 }
